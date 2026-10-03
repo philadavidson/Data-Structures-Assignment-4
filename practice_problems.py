@@ -13,9 +13,12 @@ Output: False
 """
 
 def has_duplicates(product_ids):
-    # Your implementation here
-    pass
+        if len(product_ids) != len(set(product_ids))
+            print("True")
+        else:
+            print("False")
 
+has_duplicates()
 
 """
 Problem 2: Order Manager
